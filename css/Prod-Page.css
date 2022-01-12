@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+  }
+
+  header {
+    height: var(--header-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    position: fixed;
+    top: 0;
+    left: -40%;
+    width: 100%;
+    z-index: 99;
+  }
+
+  .logo img {
+    height: 150px;
+    width: 150px;
+  }
+  
+  .main-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+
+  .main-menu a {
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-transform: capitalize;
+    transform: color 0.2s ease-in-out;
+  }
+  
+  .main-menu a:hover {
+    color: rgb(177, 120, 16);
+  }
+  
+  .main-menu > li ~ li {
+    margin-left: 15px;
+  }
+
+  .banner-text {
+    font-size: 36px;
+    color: #fff;
+    padding-left: 4%;
+    padding-top: 220px;
+    padding-bottom: 220px;
+  }
+  
+  .slogan1 {
+    margin-right: 60px;
+    position: relative;
+    text-align: right;
+    color: rgb(173, 193, 212);
+    font-size: x-large;
+    font-family: "Kirang Haerang", cursive;
+    font-size: 170%;
+    bottom: -20px;
+  }
+  
+  .slogan2 {
+    margin-right: 60px;
+    position: relative;
+    text-align: right;
+    color: rgb(173, 193, 212);
+    font-size: x-large;
+    font-family: "Kirang Haerang", cursive;
+    font-size: 170%;
+    bottom: 0px;
+  }
+  
+  h3 {
+  margin: 0px 0 05px;
+  padding: 5px;
+  color: #b57522;
+  font-size: 24px;
+  transition: 0.05s;
+  margin-left: -5px;
+  width: 500px;
+  
+}
+
+  .box {
+  position: absolute;
+  top: 15%;
+  left: 53%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  z-index:9999;
+}
+
+.box2 {
+  position: absolute;
+  top: 23%;
+  left: 32%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  z-index:9999;
+}
+input {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+input[type="text"] {
+  background: #fff;
+  width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 0 0 25px;
+}
+
+.submit-btn {
+  position: relative;
+  border-radius: 0 25px 25px 0;
+  background: #fff;
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background:#b57522 ;
+}
+
+input:placeholder-shown {
+  font-style: italic;
+}
+
+input:placeholder-shown {
+  font-size: 1em;
+}
+  #prod_images {
+            width:  350px;
+            height: 250px;
+            /* margin-left: 10px;
+            margin-right: 10px; */
+            border: 10px;
+            border-radius:10%;
+            margin-top: 30%;
+  }
+
+
+
+
+
+
+  
